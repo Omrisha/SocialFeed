@@ -12,5 +12,5 @@ Hi! So here's a mockup views (not with logic and real data) of a social feed app
 # Demo![Main Screen Image](https://i.imgur.com/kgDM7EU.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwNjg0MDhdfQ==
+eyJoaXN0b3J5IjpbMjQwNjg0MDgsLTE1NDU2NTc1NTVdfQ==
 -->
