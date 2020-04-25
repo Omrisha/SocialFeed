@@ -9,8 +9,24 @@
 import SwiftUI
 
 struct PostCardView: View {
+    @State var username = "Jon Bugles"
+    @State var userImage = "guy"
+    @State var date: String?
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            PostUserProfileView(username: self.username, userImage: self.userImage, date: self.date ?? "")
+            PostDataView()
+            SocialPopularityView()
+            Divider()
+            ButtonsView().padding(.bottom)
+        }.onAppear(perform: self.setup)
+    }
+    
+    func setup() {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE, MMM d, h:mm a"
+        print(formatter.string(from: Date()))
+        self.date = formatter.string(from: Date())
     }
 }
 

@@ -10,12 +10,30 @@ import SwiftUI
 
 struct ButtonsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack (alignment: .firstTextBaseline, spacing: 10) {
+            SingleButtonView(text: "Like", imageName: "likeButton", action: self.likeAction)
+            SingleButtonView(text: "Comment", imageName: "comment", action: self.commentAction)
+            SingleButtonView(text: "Share", imageName: "share", action: self.shareAction)
+        }
     }
 }
 
 struct ButtonsView_Previews: PreviewProvider {
     static var previews: some View {
         ButtonsView()
+    }
+}
+
+extension ButtonsView {
+    func likeAction() {
+        
+    }
+    
+    func commentAction() {
+        
+    }
+    
+    func shareAction() {
+        
     }
 }

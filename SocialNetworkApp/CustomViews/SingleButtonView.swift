@@ -16,12 +16,12 @@ struct SingleButtonView: View {
         Button(action: action, label: {
             Image(imageName)
             .resizable()
-                .frame(width: 25, height: 25, alignment: .center)
+                .frame(width: 35, height: 35, alignment: .center)
             Text(text)
                 .foregroundColor(.secondary)
                 .font(.callout)
                 .fontWeight(.medium)
-        })
+            })
     }
 }
 
