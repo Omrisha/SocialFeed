@@ -15,6 +15,16 @@
 		B22FDBBE245456EB00E407A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22FDBBC245456EB00E407A5 /* LaunchScreen.storyboard */; };
 		B22FDBC9245456EB00E407A5 /* SocialNetworkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBC8245456EB00E407A5 /* SocialNetworkAppTests.swift */; };
 		B22FDBD4245456EB00E407A5 /* SocialNetworkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBD3245456EB00E407A5 /* SocialNetworkAppUITests.swift */; };
+		B22FDBE32454578B00E407A5 /* FriendUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBE22454578B00E407A5 /* FriendUser.swift */; };
+		B22FDBEE24546D9C00E407A5 /* SingleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBE524546D9B00E407A5 /* SingleButtonView.swift */; };
+		B22FDBEF24546D9C00E407A5 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBE624546D9B00E407A5 /* ProfileHeaderView.swift */; };
+		B22FDBF024546D9C00E407A5 /* SingleButtonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBE724546D9C00E407A5 /* SingleButtonImageView.swift */; };
+		B22FDBF124546D9C00E407A5 /* WallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBE824546D9C00E407A5 /* WallView.swift */; };
+		B22FDBF224546D9C00E407A5 /* PostDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBE924546D9C00E407A5 /* PostDataView.swift */; };
+		B22FDBF324546D9C00E407A5 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBEA24546D9C00E407A5 /* PostCardView.swift */; };
+		B22FDBF424546D9C00E407A5 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBEB24546D9C00E407A5 /* ButtonsView.swift */; };
+		B22FDBF524546D9C00E407A5 /* CreatePostFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBEC24546D9C00E407A5 /* CreatePostFeedView.swift */; };
+		B22FDBF624546D9C00E407A5 /* SharingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FDBED24546D9C00E407A5 /* SharingInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		B22FDBCF245456EB00E407A5 /* SocialNetworkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialNetworkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22FDBD3245456EB00E407A5 /* SocialNetworkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkAppUITests.swift; sourceTree = "<group>"; };
 		B22FDBD5245456EB00E407A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22FDBE22454578B00E407A5 /* FriendUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendUser.swift; sourceTree = "<group>"; };
+		B22FDBE524546D9B00E407A5 /* SingleButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleButtonView.swift; sourceTree = "<group>"; };
+		B22FDBE624546D9B00E407A5 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		B22FDBE724546D9C00E407A5 /* SingleButtonImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleButtonImageView.swift; sourceTree = "<group>"; };
+		B22FDBE824546D9C00E407A5 /* WallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallView.swift; sourceTree = "<group>"; };
+		B22FDBE924546D9C00E407A5 /* PostDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDataView.swift; sourceTree = "<group>"; };
+		B22FDBEA24546D9C00E407A5 /* PostCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		B22FDBEB24546D9C00E407A5 /* ButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		B22FDBEC24546D9C00E407A5 /* CreatePostFeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostFeedView.swift; sourceTree = "<group>"; };
+		B22FDBED24546D9C00E407A5 /* SharingInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharingInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,8 @@
 		B22FDBB0245456E900E407A5 /* SocialNetworkApp */ = {
 			isa = PBXGroup;
 			children = (
+				B22FDBE424546D8B00E407A5 /* Post */,
+				B22FDBE12454570000E407A5 /* Models */,
 				B22FDBB1245456E900E407A5 /* AppDelegate.swift */,
 				B22FDBB3245456E900E407A5 /* SceneDelegate.swift */,
 				B22FDBB5245456E900E407A5 /* ContentView.swift */,
@@ -134,6 +156,30 @@
 				B22FDBD5245456EB00E407A5 /* Info.plist */,
 			);
 			path = SocialNetworkAppUITests;
+			sourceTree = "<group>";
+		};
+		B22FDBE12454570000E407A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B22FDBE22454578B00E407A5 /* FriendUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B22FDBE424546D8B00E407A5 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				B22FDBEB24546D9C00E407A5 /* ButtonsView.swift */,
+				B22FDBEC24546D9C00E407A5 /* CreatePostFeedView.swift */,
+				B22FDBEA24546D9C00E407A5 /* PostCardView.swift */,
+				B22FDBE924546D9C00E407A5 /* PostDataView.swift */,
+				B22FDBE624546D9B00E407A5 /* ProfileHeaderView.swift */,
+				B22FDBED24546D9C00E407A5 /* SharingInfoView.swift */,
+				B22FDBE724546D9C00E407A5 /* SingleButtonImageView.swift */,
+				B22FDBE524546D9B00E407A5 /* SingleButtonView.swift */,
+				B22FDBE824546D9C00E407A5 /* WallView.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +313,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22FDBF624546D9C00E407A5 /* SharingInfoView.swift in Sources */,
 				B22FDBB2245456E900E407A5 /* AppDelegate.swift in Sources */,
+				B22FDBEF24546D9C00E407A5 /* ProfileHeaderView.swift in Sources */,
+				B22FDBF324546D9C00E407A5 /* PostCardView.swift in Sources */,
+				B22FDBF424546D9C00E407A5 /* ButtonsView.swift in Sources */,
+				B22FDBF524546D9C00E407A5 /* CreatePostFeedView.swift in Sources */,
+				B22FDBEE24546D9C00E407A5 /* SingleButtonView.swift in Sources */,
 				B22FDBB4245456E900E407A5 /* SceneDelegate.swift in Sources */,
+				B22FDBF124546D9C00E407A5 /* WallView.swift in Sources */,
+				B22FDBE32454578B00E407A5 /* FriendUser.swift in Sources */,
 				B22FDBB6245456E900E407A5 /* ContentView.swift in Sources */,
+				B22FDBF024546D9C00E407A5 /* SingleButtonImageView.swift in Sources */,
+				B22FDBF224546D9C00E407A5 /* PostDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
