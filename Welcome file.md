@@ -3,7 +3,7 @@
 Hi! So here's a mockup views (not with logic and real data) of a social feed app for iOS.
 
 
-# Demo
+# Demo![Main Screen Image](https://imgur.com/kgDM7EU)
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
@@ -142,5 +142,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU2NTc1NTVdfQ==
+eyJoaXN0b3J5IjpbLTE2NTc1MjIyMzQsLTE1NDU2NTc1NTVdfQ
+==
 -->
